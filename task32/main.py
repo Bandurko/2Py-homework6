@@ -21,9 +21,9 @@ from random import randint
 lenght_nums = int(input('Введите длину массива (списка): '))
 nums = list(randint(1, 10) for i in range(lenght_nums))
 
-print(nums)
+print(*nums)
 
 min = int (input('Введите минимальное значение заданного диапазона: '))
 max = int (input('Введите максимальное значение заданного диапазона: '))
 
-print(index(nums, min, max))
+print(*index(nums, min, max))
